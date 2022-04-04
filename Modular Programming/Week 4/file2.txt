@@ -1,0 +1,7 @@
+====================
+Date:14 of February 2022
+Name: Alex
+Number of passengers: 5
+Total Cost: €22.50
+====================
+

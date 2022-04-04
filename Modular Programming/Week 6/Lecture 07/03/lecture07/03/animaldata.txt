@@ -1,0 +1,5 @@
+dog,4,2.3
+cat,3,1.2
+monkey,12,5.6
+giraffe,14,200
+elephant,5,596.2

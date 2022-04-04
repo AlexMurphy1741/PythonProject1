@@ -1,0 +1,118 @@
+
+
+def calculate_big_birthday(name: str, age: int):
+    next_10 = range(10, 90, 10)
+    age10 = 0
+    for f in next_10:
+        while f - age < 10 and f - age > 0:
+            age10 = f - age
+            return f"{name} it is {age10} until your next big birthday"
+
+def main(name: str, age: int):
+    print(calculate_big_birthday(name, age))
+
+
+# main("Ann",55)
+# main("Alex",31)
+# main("Donna",62)
+# main("Jack",14)
+
+
+def name_surname(name: str, surname: str):
+    return f"{surname}, {name}"
+
+
+def print_countries_language(country, language):
+    return f'"In {country} people speak {language}"'
+
+
+def length_comparison(word1: str, word2: str):
+    if word1 == word2:
+        print("The two words are the same length")
+    else:
+        print("The two words are not the same length")
+
+# length_comparison("hi", "hello")
+
+
+def use_numbers_draw_box(number1: int, number2: int):
+    print(f"{number1}" * 10)
+    print(f"{number2}        {number2}")
+    print(f"{number2}        {number2}")
+    print(f"{number2}        {number2}")
+    print(f"{number2}        {number2}")
+    print(f"{number1}" * 10)
+
+
+# use_numbers_draw_box(8, 1)
+
+
+import random
+
+number = random.randint(1,100)
+print(number)
+
+
+def get_name():
+    while True:
+        user_name = input("What is your name: ")
+        if len(user_name) > 0:
+            break
+    return user_name
+
+
+def main():
+    name = get_name()
+    print(name)
+
+
+# main()
+
+
+def calculate_age_2050(age):
+    age_2050 = age + 28
+    return age_2050
+
+# print(calculate_age_2050(16))
+
+
+def add(num1, num2):
+    number3 = num1 + num2
+    return number3
+
+def main():
+    '''
+    :Add two values together.
+    :parameter num1 (int)
+    :parameter num2 (int)
+    :returns int
+    '''
+    print(add(4, 5))
+
+
+
+name = get_name()
+print(name)
+
+
+
+
+
+
+
+def main(name, surname):
+    print(name_surname(name, surname))
+    print(print_countries_language("Germany", "France"))
+
+
+
+# main("Alex", "Murphy")
+# main("James", "Murphy")
+# main("Will", "Murphy")
+
+
+
+
+
+
+`
